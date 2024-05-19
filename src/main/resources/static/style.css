@@ -1,0 +1,79 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+*{
+    background-color: LavenderBlush;
+    font-family:'Montserrat',sans-serif;
+}
+.btn1 {
+    background-color: rgb(140, 94, 72);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    border-style:none;
+    font-weight: bold;
+}
+.btn2 {
+    background-color: LavenderBlush;
+    color: rgb(140, 94, 72);
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    border: 2px solid rgb(140, 94, 72);
+}
+.cake {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(140, 94, 72);
+    padding: 5px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px 10px
+}
+
+.listCakes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+th {
+    text-align: left;
+    font-weight: normal;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+h1, h2, h3 {
+    color: rgb(140, 94, 72);
+}
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
